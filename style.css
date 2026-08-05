@@ -77,6 +77,16 @@ nav a:hover{
     margin-bottom:30px;
 }
 
+.hero-portrait{
+    width:340px;
+    max-width:90%;
+    height:auto;
+    margin:auto;
+    display:block;
+    border:8px solid white;
+    box-shadow:0 18px 35px rgba(0,0,0,.18);
+}
+
 .hero p{
     margin-top:35px;
     font-size:1.35rem;
