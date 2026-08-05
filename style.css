@@ -56,50 +56,49 @@ nav a:hover{
 /* ---------- Hero ---------- */
 
 .hero{
-    height:100vh;
-    background:
-    linear-gradient(rgba(30,24,18,.35),rgba(30,24,18,.35)),
-    url("images/hero.jpg") center/cover;
+    min-height:100vh;
     display:flex;
     justify-content:center;
     align-items:center;
     text-align:center;
+    background:#f6f0e5;
+    padding:120px 20px 80px;
 }
 
 .hero-content{
-    color:white;
-    max-width:800px;
-    padding:40px;
+    max-width:850px;
 }
 
 .hero h1{
     font-family:'Cormorant Garamond',serif;
     font-size:5rem;
     font-weight:400;
-    letter-spacing:2px;
+    color:#534434;
+    margin-bottom:30px;
 }
 
 .hero p{
-    margin-top:20px;
-    font-size:1.4rem;
+    margin-top:35px;
+    font-size:1.35rem;
+    color:#534434;
     font-style:italic;
 }
 
 .enter{
-    margin-top:40px;
     display:inline-block;
-    border:1px solid white;
-    padding:14px 34px;
-    color:white;
+    margin-top:45px;
+    padding:15px 42px;
+    border:1px solid #534434;
+    color:#534434;
     text-decoration:none;
-    letter-spacing:3px;
     text-transform:uppercase;
-    transition:.4s;
+    letter-spacing:3px;
+    transition:.35s;
 }
 
 .enter:hover{
-    background:white;
-    color:#45372b;
+    background:#534434;
+    color:#f6f0e5;
 }
 
 /* ---------- Sections ---------- */
