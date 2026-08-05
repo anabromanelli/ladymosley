@@ -1,1 +1,158 @@
+/* ---------- Google Fonts ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=EB+Garamond:wght@400;500&display=swap');
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f6f0e5;
+    color:#3c3126;
+    font-family:'EB Garamond',serif;
+    line-height:1.8;
+}
+
+/* ---------- Navigation ---------- */
+
+nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:rgba(246,240,229,.93);
+    backdrop-filter:blur(6px);
+    z-index:1000;
+    border-bottom:1px solid rgba(80,65,45,.15);
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+}
+
+nav li{
+    margin:22px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#534434;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    font-size:.85rem;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#96754d;
+}
+
+/* ---------- Hero ---------- */
+
+.hero{
+    height:100vh;
+    background:
+    linear-gradient(rgba(30,24,18,.35),rgba(30,24,18,.35)),
+    url("images/hero.jpg") center/cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero-content{
+    color:white;
+    max-width:800px;
+    padding:40px;
+}
+
+.hero h1{
+    font-family:'Cormorant Garamond',serif;
+    font-size:5rem;
+    font-weight:400;
+    letter-spacing:2px;
+}
+
+.hero p{
+    margin-top:20px;
+    font-size:1.4rem;
+    font-style:italic;
+}
+
+.enter{
+    margin-top:40px;
+    display:inline-block;
+    border:1px solid white;
+    padding:14px 34px;
+    color:white;
+    text-decoration:none;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    transition:.4s;
+}
+
+.enter:hover{
+    background:white;
+    color:#45372b;
+}
+
+/* ---------- Sections ---------- */
+
+section{
+    width:min(1100px,90%);
+    margin:auto;
+    padding:110px 0;
+}
+
+h2{
+    text-align:center;
+    font-family:'Cormorant Garamond',serif;
+    font-size:3rem;
+    font-weight:400;
+    margin-bottom:35px;
+}
+
+.introduction p{
+    max-width:760px;
+    margin:auto;
+    text-align:center;
+    font-size:1.2rem;
+}
+
+/* ---------- Quote ---------- */
+
+.quote{
+    background:#e8dfd2;
+    padding:90px 30px;
+}
+
+blockquote{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+    font-size:2rem;
+    font-style:italic;
+    font-family:'Cormorant Garamond',serif;
+}
+
+cite{
+    display:block;
+    margin-top:20px;
+    font-style:normal;
+    letter-spacing:2px;
+}
+
+/* ---------- Footer ---------- */
+
+footer{
+    text-align:center;
+    padding:45px;
+    border-top:1px solid rgba(80,65,45,.15);
+    color:#6a5a49;
+}
