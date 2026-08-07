@@ -1,403 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Timeline | Lady Diana Mosley Archive</title>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=EB+Garamond:wght@400;500&display=swap" rel="stylesheet">
-
-<style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-}
-
-html{
-scroll-behavior:smooth;
-}
-
-body{
-
-background:#F6F0E5;
-
-background-image:
-radial-gradient(rgba(0,0,0,.025) 1px, transparent 1px);
-
-background-size:7px 7px;
-
-font-family:"EB Garamond",serif;
-
-color:#302920;
-
-line-height:1.9;
-
-font-size:19px;
-
-}
-
-a{
-text-decoration:none;
-color:inherit;
-}
-
-img{
-max-width:100%;
-display:block;
-}
-
-nav{
-
-width:100%;
-
-background:#f3ecdf;
-
-border-bottom:1px solid #d7cab6;
-
-position:sticky;
-
-top:0;
-
-z-index:1000;
-
-}
-
-nav ul{
-
-list-style:none;
-
-display:flex;
-
-justify-content:center;
-
-align-items:center;
-
-flex-wrap:wrap;
-
-padding:22px;
-
-gap:34px;
-
-}
-
-nav li{
-
-letter-spacing:1px;
-
-font-size:16px;
-
-text-transform:uppercase;
-
-}
-
-nav a{
-
-transition:.35s;
-
-color:#5d4d3b;
-
-}
-
-nav a:hover{
-
-color:#000;
-
-}
-
-header{
-
-padding:90px 20px 70px;
-
-text-align:center;
-
-}
-
-header h1{
-
-font-family:"Cormorant Garamond",serif;
-
-font-size:72px;
-
-font-weight:400;
-
-margin-bottom:10px;
-
-}
-
-header p{
-
-max-width:720px;
-
-margin:auto;
-
-font-size:22px;
-
-font-style:italic;
-
-color:#655746;
-
-}
-
-.rule{
-
-width:260px;
-
-height:1px;
-
-background:#a38b69;
-
-margin:40px auto;
-
-}
-
-main{
-
-max-width:980px;
-
-margin:auto;
-
-padding:0 30px 120px;
-
-}
-
-.timeline{
-
-position:relative;
-
-padding-left:80px;
-
-margin-top:40px;
-
-}
-
-.timeline::before{
-
-content:"";
-
-position:absolute;
-
-left:30px;
-
-top:0;
-
-bottom:0;
-
-width:1px;
-
-background:#b49b77;
-
-}
-
-.era{
-
-margin-bottom:90px;
-
-}
-
-.era h2{
-
-font-family:"Cormorant Garamond",serif;
-
-font-size:54px;
-
-font-weight:400;
-
-margin-bottom:8px;
-
-color:#3d3125;
-
-}
-
-.era-subtitle{
-
-font-style:italic;
-
-font-size:22px;
-
-color:#766552;
-
-margin-bottom:55px;
-
-}
-
-.event{
-
-position:relative;
-
-margin-bottom:45px;
-
-padding:30px 35px;
-
-background:rgba(255,255,255,.35);
-
-border:1px solid #d8cab7;
-
-}
-
-.event::before{
-
-content:"";
-
-position:absolute;
-
-left:-63px;
-
-top:38px;
-
-width:14px;
-
-height:14px;
-
-border-radius:50%;
-
-background:#b49b77;
-
-border:3px solid #f6f0e5;
-
-}
-
-.date{
-
-font-size:17px;
-
-letter-spacing:2px;
-
-text-transform:uppercase;
-
-color:#8b7658;
-
-margin-bottom:10px;
-
-}
-
-.content h3{
-
-font-family:"Cormorant Garamond",serif;
-
-font-size:36px;
-
-font-weight:500;
-
-margin-bottom:10px;
-
-color:#34281d;
-
-}
-
-.content p{
-
-margin-bottom:16px;
-
-}
-
-footer{
-
-border-top:1px solid #d7cab6;
-
-text-align:center;
-
-padding:60px 20px;
-
-font-size:17px;
-
-color:#766552;
-
-margin-top:80px;
-
-}
-
-@media(max-width:850px){
-
-.timeline{
-
-padding-left:45px;
-
-}
-
-.timeline::before{
-
-left:15px;
-
-}
-
-.event::before{
-
-left:-33px;
-
-}
-
-header h1{
-
-font-size:52px;
-
-}
-
-nav ul{
-
-gap:18px;
-
-font-size:15px;
-
-}
-
-}
-
-</style>
-
-</head>
-
-<body>
-
-<nav>
-
-<ul>
-
-<li><a href="../index.html">Home</a></li>
-
-<li><a href="biography.html">Biography</a></li>
-
-<li><a href="timeline.html">Timeline</a></li>
-
-<li><a href="gallery.html">Gallery</a></li>
-
-<li><a href="writings.html">Writings</a></li>
-
-<li><a href="interviews.html">Interviews</a></li>
-
-<li><a href="secondary-sources.html">Secondary Sources</a></li>
-
-<li><a href="archive.html">Archive</a></li>
-
-</ul>
-
-</nav>
-
-<header>
-
-<h1>Timeline</h1>
-
-<div class="rule"></div>
-
-<p>
-A chronological account of Lady Diana Mosley's life,
-family, residences, publications, friendships and
-major historical events.
-</p>
-
-</header>
-
-<main>
-
-<section class="timeline">
-
 <div class="era">
 
 <h2>1910–1928</h2>
@@ -405,6 +5,7 @@ major historical events.
 <p class="era-subtitle">
 Childhood & Early Years
 </p>
+
 
 <div class="event">
 
@@ -414,15 +15,16 @@ Childhood & Early Years
 
 <div class="content">
 
-<h3>Birth</h3>
+<h3>Born Diana Freeman-Mitford</h3>
 
 <p>
-Born Diana Freeman-Mitford in Belgravia, London.
+Born Diana Freeman-Mitford, Belgravia, London.
 </p>
 
 </div>
 
 </div>
+
 
 <div class="event">
 
@@ -435,13 +37,13 @@ Born Diana Freeman-Mitford in Belgravia, London.
 <h3>Batsford Park</h3>
 
 <p>
-The Mitford family live primarily at Batsford Park,
-Gloucestershire.
+Family lives primarily at Batsford Park, Gloucestershire.
 </p>
 
 </div>
 
 </div>
+
 
 <div class="event">
 
@@ -454,13 +56,13 @@ Gloucestershire.
 <h3>London During the War</h3>
 
 <p>
-The family divides its time between Batsford and
-temporary London residences during the First World War.
+Periodic stays in London; wartime household moves between Batsford and rented London houses.
 </p>
 
 </div>
 
 </div>
+
 
 <div class="event">
 
@@ -473,28 +75,45 @@ temporary London residences during the First World War.
 <h3>Asthall Manor</h3>
 
 <p>
-The family moves to Asthall Manor, Oxfordshire,
-which becomes Diana's most formative childhood home.
+Family moves to Asthall Manor, Oxfordshire.
 </p>
 
 </div>
 
 </div>
 
+
 <div class="event">
 
 <div class="date">
-1922
+1919–1926
 </div>
 
 <div class="content">
 
-<h3>Life at Asthall Manor</h3>
+<h3>Childhood at Asthall</h3>
 
 <p>
-Diana grows up in the close-knit Mitford family environment at
-Asthall Manor, surrounded by her sisters Nancy, Pamela, Unity,
-Jessica and Deborah.
+Diana’s formative childhood years at Asthall.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+Early 1926
+</div>
+
+<div class="content">
+
+<h3>Paris</h3>
+
+<p>
+Family moves temporarily to Paris while renting their proprieties in England. There, she meets early family friends and intellectual visitors (Strachey, Huxley, Russell) through her mother’s social circle.
 </p>
 
 </div>
@@ -510,12 +129,86 @@ Jessica and Deborah.
 
 <div class="content">
 
-<h3>Education at Home</h3>
+<h3>Cours Féneelon</h3>
 
 <p>
-Like her sisters, Diana receives a largely private education at
-home, shaped by governesses, reading, music and the traditions
-of the English country house.
+Diana attends Cours Féneelon, a Catholic day school (her only formal schooling).
+</p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+Late 1926
+</div>
+
+<div class="content">
+
+<h3>Return to England</h3>
+
+<p>
+Family returns to England, Diana stays for the term.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+Late 1926
+</div>
+
+<div class="content">
+
+<h3>Swinbrook House</h3>
+
+<p>
+Family moves into Swinbrook House, Oxfordshire, newly built by Lord Redesdale.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+1926–1928
+</div>
+
+<div class="content">
+
+<h3>Late Adolescence</h3>
+
+<p>
+After having her dates in Paris discovered by her parents when she left her diary open, Diana is forbidden to return. Her late adolescence spent between Swinbrook and London.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+Late 1927 / Early 1928
+</div>
+
+<div class="content">
+
+<h3>Evelyn Waugh</h3>
+
+<p>
+Diana meets Evelyn Waugh through the Guinness/Bright Young Things circle. Waugh becomes one of her closest friends; he later dedicates Vile Bodies (1930) to Diana and Bryan Guinness.
 </p>
 
 </div>
@@ -531,11 +224,10 @@ of the English country house.
 
 <div class="content">
 
-<h3>Coming of Age</h3>
+<h3>Engagement to Bryan Walter Guinness</h3>
 
 <p>
-As Diana enters adulthood, she becomes increasingly prominent
-within aristocratic social circles in Britain.
+Secret engagement to Bryan Walter Guinness.
 </p>
 
 </div>
@@ -543,22 +235,37 @@ within aristocratic social circles in Britain.
 </div>
 
 
+<div class="event">
+
+<div class="date">
+Late 1928
 </div>
 
+<div class="content">
+
+<h3>Bloomsbury-adjacent Literary World</h3>
+
+<p>
+Through Bryan, Diana meets members of the Bloomsbury-adjacent literary world, including Lytton Strachey and Dora Carrington, who admire her beauty and wit.
+</p>
+
+</div>
+
+</div>
 
 <div class="era">
 
-<h2>1929–1933</h2>
+<h2>1929–1939</h2>
 
 <p class="era-subtitle">
-Marriage to Bryan Guinness & London Society
+Marriage, Society & Germany
 </p>
 
 
 <div class="event">
 
 <div class="date">
-1929
+30 January 1929
 </div>
 
 <div class="content">
@@ -566,8 +273,45 @@ Marriage to Bryan Guinness & London Society
 <h3>Marriage to Bryan Guinness</h3>
 
 <p>
-Diana marries Bryan Walter Guinness, heir to the Guinness brewing
-fortune and a member of the Anglo-Irish aristocracy.
+Marries Bryan Guinness in London.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+1929–1932
+</div>
+
+<div class="content">
+
+<h3>Guinness Circle</h3>
+
+<p>
+Social years hosting and attending parties with the Guinness Circle.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+16 November 1930
+</div>
+
+<div class="content">
+
+<h3>Birth of Jonathan Bryan Guinness</h3>
+
+<p>
+Birth of Jonathan Bryan Guinness (later 3rd Baron Moyne).
 </p>
 
 </div>
@@ -583,10 +327,10 @@ fortune and a member of the Anglo-Irish aristocracy.
 
 <div class="content">
 
-<h3>Birth of Jonathan Guinness</h3>
+<h3>Biddesden</h3>
 
 <p>
-Diana and Bryan's first child, Jonathan Guinness, is born.
+Sister Pamela moves into a cottage at Biddesden to run the farm.
 </p>
 
 </div>
@@ -597,15 +341,15 @@ Diana and Bryan's first child, Jonathan Guinness, is born.
 <div class="event">
 
 <div class="date">
-1931
+8 September 1931
 </div>
 
 <div class="content">
 
-<h3>Birth of Desmond Guinness</h3>
+<h3>Birth of Desmond Walter Guinness</h3>
 
 <p>
-Their second son, Desmond Guinness, is born.
+Birth of Desmond Walter Guinness (co-founder of the Irish Georgian Society).
 </p>
 
 </div>
@@ -616,17 +360,15 @@ Their second son, Desmond Guinness, is born.
 <div class="event">
 
 <div class="date">
-Early 1930s
+1931–1932
 </div>
 
 <div class="content">
 
-<h3>Life Among the Bright Young Things</h3>
+<h3>Political and Literary Circles</h3>
 
 <p>
-Diana becomes associated with the artistic and aristocratic
-circles of interwar Britain, alongside writers, politicians and
-figures of high society.
+Increasing contact with political and literary figures through Bryan’s circles.
 </p>
 
 </div>
@@ -642,16 +384,48 @@ figures of high society.
 
 <div class="content">
 
-<h3>Meeting Sir Oswald Mosley</h3>
+<h3>Meets Sir Oswald Mosley</h3>
 
 <p>
-Diana meets Sir Oswald Mosley, the former Conservative and Labour
-Member of Parliament who had founded the New Party and later the
-British Union of Fascists.
+Meets Sir Oswald Mosley; begins affair.
 </p>
 
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+1932
+</div>
+
+<div class="content">
+
+<h3>Leaves Bryan Guinness</h3>
+
 <p>
-Their relationship develops while both are still married.
+Leaves Bryan Guinness.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+1932–1934
+</div>
+
+<div class="content">
+
+<h3>Divorce Proceedings</h3>
+
+<p>
+Divorce proceedings; legally finalised 1934.
 </p>
 
 </div>
@@ -667,43 +441,29 @@ Their relationship develops while both are still married.
 
 <div class="content">
 
-<h3>Leaving Bryan Guinness</h3>
+<h3>Death of Cynthia Mosley</h3>
 
 <p>
-Diana separates from Bryan Guinness. Her relationship with Mosley
-becomes the subject of considerable public attention.
+Death of Cynthia Mosley.
 </p>
 
 </div>
 
 </div>
-
-
-</div>
-
-
-<div class="era">
-
-<h2>1934–1939</h2>
-
-<p class="era-subtitle">
-Marriage to Oswald Mosley & The European Years
-</p>
 
 
 <div class="event">
 
 <div class="date">
-1934
+1933–1936
 </div>
 
 <div class="content">
 
-<h3>Life at Wootton Lodge</h3>
+<h3>Germany</h3>
 
 <p>
-Diana joins Oswald Mosley and becomes part of his political and
-social circle.
+Diana travels frequently to Germany; attends Nuremberg rallies.
 </p>
 
 </div>
@@ -714,21 +474,15 @@ social circle.
 <div class="event">
 
 <div class="date">
-1936
+6 October 1936
 </div>
 
 <div class="content">
 
-<h3>Marriage at Joseph Goebbels' Home</h3>
+<h3>Marriage to Oswald Mosley</h3>
 
 <p>
-Diana and Oswald Mosley marry in Berlin at the home of
-Dr Joseph Goebbels, with only a small number of guests present.
-</p>
-
-<p>
-The marriage takes place while they are visiting Germany for the
-Berlin Olympics.
+Marries Oswald Mosley in Berlin, the only way they could keep it from public knowledge as they did not want it to affect Mosley's political campaign.
 </p>
 
 </div>
@@ -739,16 +493,15 @@ Berlin Olympics.
 <div class="event">
 
 <div class="date">
-1936
+27 November 1938
 </div>
 
 <div class="content">
 
-<h3>Living in Germany</h3>
+<h3>Birth of Alexander Mosley</h3>
 
 <p>
-The Mosleys spend increasing amounts of time in Germany, where
-Diana becomes acquainted with leading figures of the Nazi regime.
+Birth of Alexander Mosley.
 </p>
 
 </div>
@@ -759,7 +512,7 @@ Diana becomes acquainted with leading figures of the Nazi regime.
 <div class="event">
 
 <div class="date">
-1938
+13 April 1940
 </div>
 
 <div class="content">
@@ -767,50 +520,26 @@ Diana becomes acquainted with leading figures of the Nazi regime.
 <h3>Birth of Max Mosley</h3>
 
 <p>
-Their son Max Mosley is born in London.
+Birth of Max Mosley.
 </p>
 
 </div>
 
 </div>
-
-<div class="event">
-
-<div class="date">
-1939
-</div>
-
-<div class="content">
-
-<h3>The Outbreak of War</h3>
-
-<p>
-With the beginning of the Second World War, Diana and Oswald Mosley
-return to Britain. Their political associations bring increasing
-public scrutiny.
-</p>
-
-</div>
-
-</div>
-
-
-</div>
-
 
 <div class="era">
 
-<h2>1940–1945</h2>
+<h2>1940–1959</h2>
 
 <p class="era-subtitle">
-Internment & Wartime Britain
+War, Internment & France
 </p>
 
 
 <div class="event">
 
 <div class="date">
-May 1940
+23 May 1940
 </div>
 
 <div class="content">
@@ -818,8 +547,7 @@ May 1940
 <h3>Arrest and Internment</h3>
 
 <p>
-Following the introduction of wartime security measures, Diana and
-Oswald Mosley are arrested and detained under Defence Regulation 18B.
+Arrested under Defence Regulation 18B; imprisoned in Holloway Prison.
 </p>
 
 </div>
@@ -830,21 +558,15 @@ Oswald Mosley are arrested and detained under Defence Regulation 18B.
 <div class="event">
 
 <div class="date">
-1940–1943
+1941
 </div>
 
 <div class="content">
 
-<h3>Holloway Prison</h3>
+<h3>Reunited with Mosley</h3>
 
 <p>
-Diana is held at Holloway Prison in London alongside other women
-interned during the war.
-</p>
-
-<p>
-During this period she gives birth to her son Alexander, who remains
-with her in prison during his early months.
+Reunited with Mosley in a house within the prison grounds.
 </p>
 
 </div>
@@ -855,16 +577,15 @@ with her in prison during his early months.
 <div class="event">
 
 <div class="date">
-1943
+November 1943
 </div>
 
 <div class="content">
 
-<h3>Release from Internment</h3>
+<h3>Release</h3>
 
 <p>
-Diana and Oswald Mosley are released from detention on health grounds,
-though they remain under restrictions for the remainder of the war.
+Released on health grounds.
 </p>
 
 </div>
@@ -875,48 +596,95 @@ though they remain under restrictions for the remainder of the war.
 <div class="event">
 
 <div class="date">
-1945
+1944–1946
 </div>
 
 <div class="content">
 
-<h3>End of the War</h3>
+<h3>Lives Quietly in England</h3>
 
 <p>
-Following the defeat of Germany, the Mosleys leave Britain temporarily
-and begin a new chapter of life abroad.
+Lives quietly in England under surveillance.
 </p>
 
 </div>
 
 </div>
-
-
-</div>
-
-
-<div class="era">
-
-<h2>1946–1960</h2>
-
-<p class="era-subtitle">
-France, Ireland & A New Life After Politics
-</p>
 
 
 <div class="event">
 
 <div class="date">
-1947
+30 March 1945
 </div>
 
 <div class="content">
 
-<h3>Move to France</h3>
+<h3>Death of Tom Mitford</h3>
 
 <p>
-The Mosleys settle in France, where they establish a quieter private
-life away from British public attention.
+Death of Tom Mitford (Burma). Tom’s death was “a terrible blow,” and afterwards she felt the war had “taken the best of us,” leaving her with a quiet, permanent sense of loss.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+28 May 1948
+</div>
+
+<div class="content">
+
+<h3>Death of Unity Mitford</h3>
+
+<p>
+Death of Unity Mitford. Unity’s long decline made her death “sad but not unexpected,” and that she remembered her chiefly as “the laughing girl at Swinbrook before everything went wrong.”
+</p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+Late 1940s
+</div>
+
+<div class="content">
+
+<h3>Move to Paris</h3>
+
+<p>
+The Mosleys move to Paris, first in the Rue de Miromesnil area.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+1951
+</div>
+
+<div class="content">
+
+<h3>Clonfert Palace</h3>
+
+<p>
+Diana and Oswald Mosley divide their time between Paris and Ireland, settling at Clonfert Palace, County Galway.
+</p>
+
+<p>
+This move follows their post-war self-exile from England and precedes their permanent relocation to France.
 </p>
 
 </div>
@@ -932,11 +700,10 @@ life away from British public attention.
 
 <div class="content">
 
-<h3>La Temple de la Gloire</h3>
+<h3>Tatler Diaries</h3>
 
 <p>
-Diana and Oswald live in France, particularly at their estate near
-Orsay, south of Paris, which becomes their principal home.
+Writes Tatler diaries.
 </p>
 
 </div>
@@ -947,16 +714,23 @@ Orsay, south of Paris, which becomes their principal home.
 <div class="event">
 
 <div class="date">
-1950s
+1953
 </div>
 
 <div class="content">
 
-<h3>Social and Literary Circles</h3>
+<h3>Clonfert Palace Fire</h3>
 
 <p>
-Diana continues friendships with writers, artists and figures from
-European aristocratic and intellectual circles.
+Clonfert Palace catches fire and is severely damaged.
+</p>
+
+<p>
+The fire effectively ends their Irish residence.
+</p>
+
+<p>
+After the destruction of the house, the Mosleys leave Ireland and move permanently to France, first to Paris and later to Orsay.
 </p>
 
 </div>
@@ -967,50 +741,80 @@ European aristocratic and intellectual circles.
 <div class="event">
 
 <div class="date">
-1959
+1953–1959
 </div>
 
 <div class="content">
 
-<h3>Return Visits to Britain</h3>
+<h3>The European</h3>
 
 <p>
-The Mosleys increasingly divide their time between France and Britain,
-maintaining connections with family and friends.
+Edits The European.
 </p>
 
 </div>
 
 </div>
 
-<div class="era">
 
-<h2>1961–1979</h2>
+<div class="event">
+
+<div class="date">
+1950s–1960s
+</div>
+
+<div class="content">
+
+<h3>Ireland</h3>
+
+<p>
+Frequent visits to Ireland to see Desmond.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+17 February 1958
+</div>
+
+<div class="content">
+
+<h3>Death of Lord Redesdale</h3>
+
+<p>
+Death of Lord Redesdale. She described her father’s death as “the end of our childhood world.”
+</p>
+
+</div>
+
+</div>
+
+  <div class="era">
+
+<h2>1960–1979</h2>
 
 <p class="era-subtitle">
-Later Life, Writing & Public Memory
+Writing, Family & Later Life
 </p>
 
 
 <div class="event">
 
 <div class="date">
-1960s
+1960–1962
 </div>
 
 <div class="content">
 
-<h3>A Life Between France and England</h3>
+<h3>Paris and Orsay</h3>
 
 <p>
-Diana continues to divide her time between France and Britain,
-maintaining friendships across literary, artistic and aristocratic
-circles.
-</p>
-
-<p>
-Her homes become known for their collections, conversation and
-hospitality.
+Diana is living between Paris (Avenue Foch area) and Orsay, the Mosley family home outside the city.
 </p>
 
 </div>
@@ -1021,17 +825,229 @@ hospitality.
 <div class="event">
 
 <div class="date">
-1960s–1970s
+1964–1966
 </div>
 
 <div class="content">
 
-<h3>Interest in History and Memoir</h3>
+<h3>Book Reviewing</h3>
 
 <p>
-Diana begins reflecting more deeply on her own experiences,
-friendships and the extraordinary historical period through which
-she lived.
+Diana begins to take on more book reviewing, first informally, then more regularly.
+She becomes part of a small Parisian Anglo-French literary circle.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+1 September 1963
+</div>
+
+<div class="content">
+
+<h3>Death of Sydney, Lady Redesdale</h3>
+
+<p>
+Sydney, Lady Redesdale, Diana’s mother, dies. Her death “left a great gap,” because Sydney had been “the centre of our early life,” and she felt the loss more deeply than she admitted aloud.
+</p>
+
+<p>
+Diana travels to England for the funeral and spends time with her sisters at Swinbrook.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+1967
+</div>
+
+<div class="content">
+
+<h3>Books & Bookmen</h3>
+
+<p>
+Diana begins reviewing for Books & Bookmen, a relationship that continues into the 1970s and 1980s. She also contributes occasional pieces to other literary periodicals.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+1968
+</div>
+
+<div class="content">
+
+<h3>Ireland and the Irish Georgian Society</h3>
+
+<p>
+Diana spends time in Ireland visiting her son Desmond Guinness, who is now deeply involved in the Irish Georgian Society. She attends several architectural conservation events and house visits, though always privately and without publicity.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+1969
+</div>
+
+<div class="content">
+
+<h3>Daily Life</h3>
+
+<p>
+Diana's routine consists of reviewing books, correspondence with literary friends, occasional travel to England and Ireland, and hosting small lunches and dinners. She also begins drafting material that will later appear in A Life of Contrasts (published 1977).
+</p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+1971
+</div>
+
+<div class="content">
+
+<h3>Visits to England</h3>
+
+<p>
+Regular visits to England to see her sisters and to Swinbrook.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+January 1973
+</div>
+
+<div class="content">
+
+<h3>Caring for Nancy Mitford and Oswald Mosley</h3>
+
+<p>
+Diana begins caring simultaneously for Nancy Mitford (dying in Versailles) and Oswald Mosley (declining at Orsay).
+</p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+February–May 1973
+</div>
+
+<div class="content">
+
+<h3>Versailles and Orsay</h3>
+
+<p>
+Diana alternates between Versailles and Orsay, managing both households and medical care.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+30 June 1973
+</div>
+
+<div class="content">
+
+<h3>Death of Nancy Mitford</h3>
+
+<p>
+Death of Nancy Mitford; Diana attends funeral and returns to Orsay to continue caring for Mosley. In her memoir she said Nancy’s death “left me desolate,” and that caring for her in Versailles had been “a privilege,” even though she never used dramatic language about grief.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+Late 1973
+</div>
+
+<div class="content">
+
+<h3>Autobiography</h3>
+
+<p>
+Diana resumes work on her autobiography with renewed intensity.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+1975
+</div>
+
+<div class="content">
+
+<h3>A Life of Contrasts</h3>
+
+<p>
+Diana completes the first full draft of A Life of Contrasts.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+1976
+</div>
+
+<div class="content">
+
+<h3>Final Edits</h3>
+
+<p>
+Final edits of A Life of Contrasts delivered to her publisher.
 </p>
 
 </div>
@@ -1047,12 +1063,10 @@ she lived.
 
 <div class="content">
 
-<h3>Publication of <em>A Life of Contrasts</em></h3>
+<h3>Publication of A Life of Contrasts</h3>
 
 <p>
-Diana publishes her autobiography, <em>A Life of Contrasts</em>,
-offering her personal account of childhood, society, politics,
-friendships and wartime experiences.
+Publication of A Life of Contrasts.
 </p>
 
 </div>
@@ -1063,70 +1077,42 @@ friendships and wartime experiences.
 <div class="event">
 
 <div class="date">
-Late 1970s
+1978
 </div>
 
 <div class="content">
 
-<h3>Historical Interest</h3>
+<h3>The Duchess of Windsor</h3>
 
 <p>
-Diana's life continues to attract attention from historians and
-biographers interested in the aristocracy, twentieth-century Britain
-and the political movements of the interwar period.
+Begins work on her next biographical project, later published in 1980 (The Duchess of Windsor).
 </p>
 
 </div>
 
 </div>
 
+  <div class="era">
 
-</div>
-
-
-<div class="era">
-
-<h2>1980–1999</h2>
+<h2>1980–2003</h2>
 
 <p class="era-subtitle">
-Reflections, Interviews & Later Years
+Later Years, Writing & Legacy
 </p>
 
 
 <div class="event">
 
 <div class="date">
-1980s
+3 December 1980
 </div>
 
 <div class="content">
 
-<h3>Interviews and Reminiscences</h3>
+<h3>Death of Oswald Mosley</h3>
 
 <p>
-Diana gives occasional interviews, discussing her memories of
-twentieth-century society, her family and the many prominent figures
-she had known.
-</p>
-
-</div>
-
-</div>
-
-
-<div class="event">
-
-<div class="date">
-1980s–1990s
-</div>
-
-<div class="content">
-
-<h3>Friendships and Correspondence</h3>
-
-<p>
-She maintains lifelong friendships and correspondence with members of
-European aristocratic, cultural and political circles.
+Death of Oswald Mosley at Orsay. Diana manages all funeral arrangements and correspondence. This marked a major change in her life and a long period of grief. Mosley’s death “ended a long companionship,” and she writes that after that, she simple "went on with things."
 </p>
 
 </div>
@@ -1137,17 +1123,19 @@ European aristocratic, cultural and political circles.
 <div class="event">
 
 <div class="date">
-1990s
+Late 1980
 </div>
 
 <div class="content">
 
-<h3>Recognition as a Historical Figure</h3>
+<h3>Move to Paris</h3>
 
 <p>
-By the final decades of the twentieth century, Diana is increasingly
-viewed as one of the most distinctive and controversial survivors of
-the interwar aristocratic world.
+Diana moves permanently to Paris, leaving Orsay behind.
+</p>
+
+<p>
+This becomes her final home for the rest of her life.
 </p>
 
 </div>
@@ -1158,17 +1146,19 @@ the interwar aristocratic world.
 <div class="event">
 
 <div class="date">
-1999
+1980
 </div>
 
 <div class="content">
 
-<h3>Move Towards the End of the Century</h3>
+<h3>The Duchess of Windsor</h3>
 
 <p>
-Diana remains active socially and intellectually, continuing to
-receive visitors and engage with her long-standing interests in
-history, literature and culture.
+Publication of The Duchess of Windsor, her biography of Wallis Simpson.
+</p>
+
+<p>
+She spends the year responding to reviews and letters.
 </p>
 
 </div>
@@ -1176,15 +1166,203 @@ history, literature and culture.
 </div>
 
 
+<div class="event">
+
+<div class="date">
+1981
 </div>
 
-<div class="era">
+<div class="content">
 
-<h2>2000–2003</h2>
+<h3>The Pursuit of Laughter</h3>
 
-<p class="era-subtitle">
-Final Years & Legacy
+<p>
+Begins writing The Pursuit of Laughter, a collection of essays, memoir fragments, and biographical sketches.
 </p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+1982
+</div>
+
+<div class="content">
+
+<h3>Visits to England</h3>
+
+<p>
+Regular visits to England to see her sisters and grandchildren.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+1984
+</div>
+
+<div class="content">
+
+<h3>Publication of The Pursuit of Laughter</h3>
+
+<p>
+Publication of The Pursuit of Laughter.
+</p>
+
+<p>
+The book receives attention for its sharp, unsentimental portraits and its elegant prose.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+1985
+</div>
+
+<div class="content">
+
+<h3>Reviewing and England Visits</h3>
+
+<p>
+Diana’s reviewing work expands; she becomes a regular contributor to the Evening Standard.
+</p>
+
+<p>
+Visits England several times; staying with Debo at Chatsworth.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+24 April 1986
+</div>
+
+<div class="content">
+
+<h3>Death of Wallis, Duchess of Windsor</h3>
+
+<p>
+Death of Wallis, Duchess of Windsor, subject of Diana’s earlier biography.
+</p>
+
+<p>
+Diana writes several private letters reflecting on the Duchess’s life and public image.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+1989
+</div>
+
+<div class="content">
+
+<h3>Desert Island Discs</h3>
+
+<p>
+Appears on BBC Radio 4’s Desert Island Discs.
+</p>
+
+<p>
+The interview causes controversy due to honesty and refusal to deny her opinion on Hitler at the time she knew her (pre-war).
+</p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+6 July 1992
+</div>
+
+<div class="content">
+
+<h3>Death of Bryan Guinness</h3>
+
+<p>
+Death of Bryan Guinness, her first husband.
+</p>
+
+<p>
+Diana writes private letters of condolence to members of the Guinness family.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+12 April 1994
+</div>
+
+<div class="content">
+
+<h3>Death of Pamela Mitford</h3>
+
+<p>
+Death of Pamela Mitford, her sister.
+</p>
+
+<p>
+Diana travels to England for the funeral and spends time with Deborah and Jessica.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="event">
+
+<div class="date">
+22 July 1996
+</div>
+
+<div class="content">
+
+<h3>Death of Jessica Mitford</h3>
+
+<p>
+Death of Jessica Mitford, her sister.
+</p>
+
+<p>
+Diana writes several letters reflecting on Jessica’s life and their political differences.
+</p>
+
+</div>
+
+</div>
 
 
 <div class="event">
@@ -1195,12 +1373,10 @@ Final Years & Legacy
 
 <div class="content">
 
-<h3>Ninetieth Birthday</h3>
+<h3>Later Years</h3>
 
 <p>
-Diana celebrates her ninetieth birthday, marking a lifetime that had
-spanned the First World War, the rise and fall of political movements,
-the Second World War and the transformation of British society.
+Health begins to decline modestly, but she remains socially active within her small Paris circle.
 </p>
 
 </div>
@@ -1211,21 +1387,15 @@ the Second World War and the transformation of British society.
 <div class="event">
 
 <div class="date">
-2000–2002
+Early 2003
 </div>
 
 <div class="content">
 
-<h3>Later Reflections</h3>
+<h3>Final Months</h3>
 
 <p>
-In her final years, Diana continues to be interviewed and consulted
-by writers and historians interested in the twentieth century.
-</p>
-
-<p>
-She remains known for her remarkable memory, wit and accounts of the
-people and places that shaped her life.
+Diana’s health deteriorates noticeably; she becomes largely house-bound, but still welcoming friends.
 </p>
 
 </div>
@@ -1241,90 +1411,14 @@ people and places that shaped her life.
 
 <div class="content">
 
-<h3>Death</h3>
+<h3>Death of Diana Mosley</h3>
 
 <p>
-Lady Diana Mosley dies at her home in Paris at the age of 93.
-</p>
-
-</div>
-
-</div>
-
-
-</div>
-
-
-<div class="era">
-
-<h2>After 2003</h2>
-
-<p class="era-subtitle">
-Historical Assessment & Continuing Interest
-</p>
-
-
-<div class="event">
-
-<div class="date">
-2000s–Present
-</div>
-
-<div class="content">
-
-<h3>Biographical Research</h3>
-
-<p>
-Diana Mosley's life continues to be studied by historians and
-biographers examining aristocracy, politics, gender, social history
-and the cultural world of twentieth-century Europe.
-</p>
-
-</div>
-
-</div>
-
-
-<div class="event">
-
-<div class="date">
-2007
-</div>
-
-<div class="content">
-
-<h3>Publication of <em>Diana Mosley: A Life</em></h3>
-
-<p>
-Anne de Courcy publishes a major biography of Diana Mosley, examining
-her upbringing, relationships, political associations and later life.
-</p>
-
-</div>
-
-</div>
-
-
-<div class="event">
-
-<div class="date">
-21st Century
-</div>
-
-<div class="content">
-
-<h3>A Figure of Historical Debate</h3>
-
-<p>
-Diana Mosley remains a subject of discussion and research due to the
-complexity of her personal history, her relationships with major
-figures of the twentieth century and her association with fascist
-politics.
+Diana Mosley dies in Paris, aged 93.
 </p>
 
 <p>
-Her life continues to raise questions about privilege, loyalty,
-political conviction, memory and personal responsibility.
+Burial at St Mary’s Church, Swinbrook, returning to the Oxfordshire landscape of her childhood.
 </p>
 
 </div>
