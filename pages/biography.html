@@ -1,33 +1,386 @@
-<link rel="stylesheet" href="../style.css">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Timeline | Lady Diana Mosley Archive</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=EB+Garamond:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+
+background:#F6F0E5;
+
+background-image:
+radial-gradient(rgba(0,0,0,.025) 1px, transparent 1px);
+
+background-size:7px 7px;
+
+font-family:"EB Garamond",serif;
+
+color:#302920;
+
+line-height:1.9;
+
+font-size:19px;
+
+}
+
+a{
+text-decoration:none;
+color:inherit;
+}
+
+img{
+max-width:100%;
+display:block;
+}
+
+nav{
+
+width:100%;
+
+background:#f3ecdf;
+
+border-bottom:1px solid #d7cab6;
+
+position:sticky;
+
+top:0;
+
+z-index:1000;
+
+}
+
+nav ul{
+
+list-style:none;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+flex-wrap:wrap;
+
+padding:22px;
+
+gap:34px;
+
+}
+
+nav li{
+
+letter-spacing:1px;
+
+font-size:16px;
+
+text-transform:uppercase;
+
+}
+
+nav a{
+
+transition:.35s;
+
+color:#5d4d3b;
+
+}
+
+nav a:hover{
+
+color:#000;
+
+}
+
+header{
+
+padding:90px 20px 70px;
+
+text-align:center;
+
+}
+
+header h1{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:72px;
+
+font-weight:400;
+
+margin-bottom:10px;
+
+}
+
+header p{
+
+max-width:720px;
+
+margin:auto;
+
+font-size:22px;
+
+font-style:italic;
+
+color:#655746;
+
+}
+
+.rule{
+
+width:260px;
+
+height:1px;
+
+background:#a38b69;
+
+margin:40px auto;
+
+}
+
+main{
+
+max-width:980px;
+
+margin:auto;
+
+padding:0 30px 120px;
+
+}
+
+.timeline{
+
+position:relative;
+
+padding-left:80px;
+
+margin-top:40px;
+
+}
+
+.timeline::before{
+
+content:"";
+
+position:absolute;
+
+left:30px;
+
+top:0;
+
+bottom:0;
+
+width:1px;
+
+background:#b49b77;
+
+}
+
+.era{
+
+margin-bottom:90px;
+
+}
+
+.era h2{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:54px;
+
+font-weight:400;
+
+margin-bottom:8px;
+
+color:#3d3125;
+
+}
+
+.era-subtitle{
+
+font-style:italic;
+
+font-size:22px;
+
+color:#766552;
+
+margin-bottom:55px;
+
+}
+
+.event{
+
+position:relative;
+
+margin-bottom:45px;
+
+padding:30px 35px;
+
+background:rgba(255,255,255,.35);
+
+border:1px solid #d8cab7;
+
+}
+
+.event::before{
+
+content:"";
+
+position:absolute;
+
+left:-63px;
+
+top:38px;
+
+width:14px;
+
+height:14px;
+
+border-radius:50%;
+
+background:#b49b77;
+
+border:3px solid #f6f0e5;
+
+}
+
+.date{
+
+font-size:17px;
+
+letter-spacing:2px;
+
+text-transform:uppercase;
+
+color:#8b7658;
+
+margin-bottom:10px;
+
+}
+
+.content h3{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:36px;
+
+font-weight:500;
+
+margin-bottom:10px;
+
+color:#34281d;
+
+}
+
+.content p{
+
+margin-bottom:16px;
+
+}
+
+footer{
+
+border-top:1px solid #d7cab6;
+
+text-align:center;
+
+padding:60px 20px;
+
+font-size:17px;
+
+color:#766552;
+
+margin-top:80px;
+
+}
+
+@media(max-width:850px){
+
+.timeline{
+
+padding-left:45px;
+
+}
+
+.timeline::before{
+
+left:15px;
+
+}
+
+.event::before{
+
+left:-33px;
+
+}
+
+header h1{
+
+font-size:52px;
+
+}
+
+nav ul{
+
+gap:18px;
+
+font-size:15px;
+
+}
+
+}
+
+</style>
+
+</head>
 
 <body>
 
-      <nav>
 <nav>
 
 <ul>
 
-<li><a href="https://anabromanelli.github.io/ladymosley/">Home</a></li>
+<li><a href="../index.html">Home</a></li>
 
-<li><a href="pages/biography.html">Biography</a></li>
+<li><a href="biography.html">Biography</a></li>
 
-<li><a href="pages/timeline.html">Timeline</a></li>
+<li><a href="timeline.html">Timeline</a></li>
 
-<li><a href="pages/gallery.html">Gallery</a></li>
+<li><a href="gallery.html">Gallery</a></li>
 
-<li><a href="pages/writings.html">Writings</a></li>
+<li><a href="writings.html">Writings</a></li>
 
-<li><a href="pages/interviews.html">Interviews</a></li>
+<li><a href="interviews.html">Interviews</a></li>
 
-<li><a href="pages/mentions.html">Mentions</a></li>
+<li><a href="secondary-sources.html">Secondary Sources</a></li>
 
-<li><a href="pages/archive.html">Archive</a></li>
+<li><a href="archive.html">Archive</a></li>
 
 </ul>
 
 </nav>
 
-</nav>
+<header>
 
 <section class="page-header">
 
@@ -35,8 +388,8 @@
 
     <p>
         Lady Diana Mosley (1910–2003) was one of the most recognisable figures
-        of twentieth-century British society. This biography presents a
-        chronological account of her life, writings and historical context.
+        of twentieth-century British society. This biography presents an
+         account of her life, writings and historical context.
     </p>
 
 </section>
