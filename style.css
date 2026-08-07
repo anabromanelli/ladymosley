@@ -384,72 +384,54 @@ font-size:1.15rem;
 /* WRITINGS PAGE */
 
 
-.writings-page {
+.writings-section {
+
     width: 85%;
     max-width: 1100px;
-    margin: 0 auto 80px;
-}
+    margin: 60px auto;
 
-
-.page-header {
-    text-align: center;
-    margin: 70px auto 60px;
-}
-
-
-.page-header h1 {
-    font-family: Georgia, serif;
-    font-size: 48px;
-    font-weight: normal;
-    letter-spacing: 3px;
-}
-
-
-.page-header p {
-    font-family: Georgia, serif;
-    font-style: italic;
-    font-size: 18px;
-    line-height: 1.8;
 }
 
 
 
-.books-section h2,
-.articles-section h2 {
+.writings-section h2 {
 
     text-align: center;
     font-family: Georgia, serif;
-    font-weight: normal;
     font-size: 32px;
+    font-weight: normal;
     letter-spacing: 2px;
-
     margin-bottom: 45px;
 
 }
 
 
 
-.book-grid {
+
+.books-grid {
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 35px;
+    gap: 30px;
 
 }
 
 
 
-.book {
+
+.book-box {
 
     border: 1px solid #b8a58a;
     padding: 35px 25px;
     text-align: center;
+    background: transparent;
 
 }
 
 
 
-.book img {
+
+.book-box img {
 
     width: 170px;
     height: auto;
@@ -459,33 +441,34 @@ font-size:1.15rem;
 
 
 
-.book h3 {
+
+.book-box h3 {
 
     font-family: Georgia, serif;
-    font-size: 20px;
     font-weight: normal;
+    font-size: 20px;
     line-height: 1.5;
 
 }
 
 
 
-.book p {
+.book-box p {
 
     font-family: Georgia, serif;
     font-style: italic;
-    margin-top: 12px;
 
 }
 
 
 
 
-.articles-section {
+.articles {
 
     margin-top: 90px;
 
 }
+
 
 
 
@@ -517,20 +500,11 @@ font-size:1.15rem;
 
 
 
-.article-entry p {
-
-    font-family: Georgia, serif;
-    font-style: italic;
-
-}
-
-
-
 .article-entry a {
 
-    color: #4b382b;
+    color: inherit;
     text-decoration: none;
-    border-bottom: 1px solid #4b382b;
+    border-bottom: 1px solid #8b7355;
 
 }
 
@@ -538,10 +512,12 @@ font-size:1.15rem;
 
 @media (max-width: 800px) {
 
-    .book-grid {
 
-        grid-template-columns: 1fr;
+.books-grid {
 
-    }
+    grid-template-columns: 1fr;
+
+}
+
 
 }
